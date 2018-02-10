@@ -1,0 +1,17 @@
+{
+  "name": "news-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "export NODE_ENV=development && node app.js",
+    "start-dev": "export NODE_ENV=development && nodemon --inspect app.js"
+  },
+  "author": "Amit Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.16.2",
+    "r2": "^2.0.0"
+  }
+}
